@@ -56,7 +56,7 @@ struct ContentView: View {
                         Text("Consistence is the key")
                     }
             }
-            .listStyle(.plain) // Remove or modifier to apply a different ListStyle
+            //.listStyle(.plain) // Remove or modifier to apply a different ListStyle
             .refreshable {
                 var copyToday = todayTodos
                 var copyTomorrow = tomorrowTodos
